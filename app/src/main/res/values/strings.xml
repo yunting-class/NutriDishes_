@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NutriDishes_</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    facebook-->
+    <string name="facebook_app_id">5649150751801943</string>
+    <string name="fb_login_protocol_scheme">fb5649150751801943</string>
+    <string name="facebook_client_token">432936085af0ae1d3cededdc571b93e2</string>
+<!--    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA9O-slH0ourGjlPUAAJEYLZrmyXLsIf3I</string>-->
+</resources>

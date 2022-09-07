@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MealFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/top_label"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center|center_vertical"
+            android:text="早餐"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/background_color"
+            android:src="@drawable/ic_baseline_keyboard_arrow_left_24" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/search_text"
+            android:drawableLeft="?android:attr/actionModeWebSearchDrawable"
+            android:ems="10"
+            android:hint="搜尋收藏"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>

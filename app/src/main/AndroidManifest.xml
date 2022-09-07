@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.nutridishes_">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>
+<!--提供精確的使用者位置-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<!--提供較不精確的使用者位置-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<!--外部儲存空間權限(8.3以上版本不需要)-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NutriDishes_"
+        android:name=".GlobalVariable"
+        tools:targetApi="31">
+        <activity
+            android:name=".Personal"
+            android:exported="false" />
+        <activity
+            android:name=".PocketList"
+            android:exported="false" />
+        <activity
+            android:name=".BottomNavigationBar"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".getBasicInformation"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--facebook-->
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA9O-slH0ourGjlPUAAJEYLZrmyXLsIf3I" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+
+    </application>
+
+
+
+
+
+
+
+</manifest>

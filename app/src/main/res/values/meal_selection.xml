@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerValueMeal">
+        <item >早餐</item>
+        <item>午餐</item>
+        <item>晚餐</item>
+        <item>小食(其他)</item>
+    </string-array>
+</resources>

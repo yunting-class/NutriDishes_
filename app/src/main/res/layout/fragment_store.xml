@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/top_label"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center|center_vertical"
+        android:text="店家"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/background_color"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="100dp">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/block_button"
+            android:gravity="left"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="40dp"
+            android:text="店家1"
+            android:textColor="@color/text_color" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/class01"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/block_button"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="店家1"
+            android:textColor="@color/text_color" />
+
+        <Button
+            android:id="@+id/class02"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/block_button"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="40dp"
+            android:text="店家2"
+            android:textColor="@color/text_color" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/check_button"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:text="查看地點"
+        android:textColor="@color/check_text"
+        android:textStyle="bold" />
+
+
+</FrameLayout>

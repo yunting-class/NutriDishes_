@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerValueTarget">
+        <item>減肥</item>
+        <item>維持</item>
+        <item>增重</item>
+        <item>增肌</item>
+    </string-array>
+</resources>

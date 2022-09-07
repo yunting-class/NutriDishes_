@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".InformationEditFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/top_label"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center|center_vertical"
+        android:text="個人資料設定"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/background_color"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="使用者暱稱"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nickname_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/white_text"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/user_id_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="使用者id"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/white_text"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="電子信箱"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/e_mail_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/white_text"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="手機號碼"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/phone_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/white_text"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/dark_green_botton"
+            android:text="確認修改"
+            android:textColor="@color/button_text_color"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>

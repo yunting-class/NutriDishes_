@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="purple_200">#FFBB86FC</color>-->
+<!--    <color name="purple_500">#FF6200EE</color>-->
+<!--    <color name="purple_700">#FF3700B3</color>-->
+<!--    <color name="teal_200">#FF03DAC5</color>-->
+<!--    <color name="teal_700">#FF018786</color>-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#F9F7F7</color>
+    <color name="text_color">#415E25</color>
+    <color name="bottom_nav_color">#F8774A</color>
+    <color name="block">#C2EFAC</color>
+    <color name="add_login">#5C8C36</color>
+    <color name="check_">#FFE3AD</color>
+    <color name="check_text">#854912</color>
+    <color name="button_text_color">#F6F6F9</color>
+
+</resources>

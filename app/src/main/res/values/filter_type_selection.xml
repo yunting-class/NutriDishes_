@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerValueType">
+        <item id='0'>餐廳類型</item>
+        <item id='1'>飲食偏好</item>
+    </string-array>
+</resources>

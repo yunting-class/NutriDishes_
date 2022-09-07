@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".CreateAccount">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/green_round_background">
+
+            <Button
+                android:id="@+id/create_account_page"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="創建帳戶"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/login_page"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|left"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="登入帳號"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="45dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/set_account"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:text="設定帳號資訊"
+                android:textColor="@color/text_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/white_text"
+                android:ems="10"
+                android:hint="請輸入註冊用信箱"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/nickname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/white_text"
+                android:ems="10"
+                android:hint="請輸入您的暱稱"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/password_new"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/white_text"
+                android:ems="10"
+                android:hint="請輸入密碼(需大於8位數)"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/password_check"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/white_text"
+                android:ems="10"
+                android:hint="請確認密碼"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/sign_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/dark_green_botton"
+                android:text="建立帳號"
+                android:textColor="@color/button_text_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

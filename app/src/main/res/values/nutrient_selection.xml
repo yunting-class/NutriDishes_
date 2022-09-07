@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerValueNutrient">
+        <item>澱粉</item>
+        <item>蛋白質</item>
+        <item>脂肪</item>
+        <item>鈉</item>
+    </string-array>
+</resources>

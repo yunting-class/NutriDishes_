@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="home"
+        android:icon="@drawable/ic_discovery"/>
+    <item
+        android:id="@+id/perfer"
+        android:title="perfer"
+        android:icon="@drawable/ic_star"/>
+    <item
+        android:id="@+id/pocket_list"
+        android:title="pocket list"
+        android:icon="@drawable/ic_bag"/>
+    <item
+        android:id="@+id/personal"
+        android:title="personal"
+        android:icon="@drawable/ic_user"/>
+</menu>

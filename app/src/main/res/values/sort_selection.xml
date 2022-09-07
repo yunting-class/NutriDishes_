@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerValueSort">
+        <item >距離(由近到遠)</item>
+        <item>距離(由遠到近)</item>
+        <item>價格(由低到高)</item>
+        <item>價格(由高到低)</item>
+    </string-array>
+</resources>
